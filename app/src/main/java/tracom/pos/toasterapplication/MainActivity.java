@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import tracom.pos.toastermessage.ToastMessage;
+//import tracom.pos.toastermessage.ToastMessage;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +14,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 //        ToastMessage.s(getApplicationContext(), "Android sample library");
-        ToastMessage.s(getApplicationContext(), "Android sample library");
     }
 }
